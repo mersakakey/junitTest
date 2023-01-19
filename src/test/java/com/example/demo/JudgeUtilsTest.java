@@ -194,11 +194,10 @@ class JudgeUtilsTest {
 	@Test
 	public void testIsRegisterdAge_17歳_プレイ不可() {
 
-
 		// 事前処理(Mock)
 		Calendar cal = Calendar.getInstance();
 		cal.clear();
-		cal.set(Calendar.YEAR, 2020);
+		cal.set(Calendar.YEAR, 2017);
 		cal.set(Calendar.MONTH, Calendar.APRIL);
 		cal.set(Calendar.DAY_OF_MONTH, 01);
 		Date date = cal.getTime();
